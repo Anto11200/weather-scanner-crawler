@@ -1,0 +1,1042 @@
+[INFO] 03/03/2024 20:51:38 -------- Inizio thread previsioni settimanali --------
+[INFO] 03/03/2024 20:51:38 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 03/03/2024 20:51:38 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 03/03/2024 20:51:38 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 03/03/2024 20:51:38 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 03/03/2024 20:51:38 -------- Inizio thread creazione documento centralina--------
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 03/03/2024 20:51:38 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 03/03/2024 20:51:38 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 03/03/2024 20:51:38 Ottengo le citta
+[INFO] 03/03/2024 20:51:38 calcolo il partialSum di 3bmeteo per il calcolo del bias
+[INFO] 03/03/2024 20:51:38 ottengo il bias parziale calcolato di 3bmeteo
+[INFO] 03/03/2024 20:51:38 calcolo il partialSum di 3bmeteo per il calcolo del mape
+[INFO] 03/03/2024 20:51:38 ottengo il mape parziale calcolato di 3bmeteo
+[INFO] 03/03/2024 20:51:38 calcolo il partialSum di 3bmeteo per il calcolo del rmse
+[INFO] 03/03/2024 20:51:38 ottengo il rmse parziale calcolato di 3bmeteo
+[INFO] 03/03/2024 20:51:38 calcolo il partialSum di 3bmeteo per il calcolo del wbias
+[INFO] 03/03/2024 20:51:38 ottengo il wbias parziale calcolato di 3bmeteo
+[INFO] 03/03/2024 20:51:39 -------- meteo orario per milan inserito --------
+[INFO] 03/03/2024 20:51:39 -------- meteo orario per messina inserito --------
+[INFO] 03/03/2024 20:51:39 -------- meteo orario per palermo inserito --------
+[INFO] 03/03/2024 20:51:39 -------- documento giornaliero per milan creato --------
+[INFO] 03/03/2024 20:51:39 -------- meteo orario per rome inserito --------
+[INFO] 03/03/2024 20:51:39 -------- documento giornaliero per messina creato --------
+[INFO] 03/03/2024 20:51:39 -------- documento giornaliero per rome creato --------
+[INFO] 03/03/2024 20:51:39 -------- documento giornaliero per palermo creato --------
+[INFO] 03/03/2024 20:51:38 Ottengo le citta
+[INFO] 03/03/2024 20:51:38 calcolo il partialSum di meteoit per il calcolo del bias
+[INFO] 03/03/2024 20:51:38 ottengo il bias parziale calcolato di meteoit
+[INFO] 03/03/2024 20:51:38 calcolo il partialSum di meteoit per il calcolo del mape
+[INFO] 03/03/2024 20:51:39 ottengo il mape parziale calcolato di meteoit
+[INFO] 03/03/2024 20:51:39 calcolo il partialSum di meteoit per il calcolo del rmse
+[INFO] 03/03/2024 20:51:39 ottengo il rmse parziale calcolato di meteoit
+[INFO] 03/03/2024 20:51:39 calcolo il partialSum di meteoit per il calcolo del wbias
+[INFO] 03/03/2024 20:51:39 ottengo il wbias parziale calcolato di meteoit
+[INFO] 03/03/2024 20:51:39 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 03/03/2024 20:51:39 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 03/03/2024 20:51:39 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 03/03/2024 20:51:39 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 03/03/2024 20:51:40 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 03/03/2024 20:51:40 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 03/03/2024 20:51:41 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 03/03/2024 20:51:41 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 03/03/2024 20:51:41 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 03/03/2024 20:51:42 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 03/03/2024 20:51:42 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 03/03/2024 20:51:42 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 03/03/2024 20:51:42 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 03/03/2024 20:51:43 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 03/03/2024 20:51:43 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 03/03/2024 20:51:43 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 03/03/2024 20:51:43 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 03/03/2024 20:51:44 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 03/03/2024 20:51:44 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 03/03/2024 20:51:44 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 03/03/2024 20:51:44 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 03/03/2024 20:51:45 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 03/03/2024 20:51:45 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 03/03/2024 20:51:45 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 03/03/2024 20:51:45 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 03/03/2024 20:51:46 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 03/03/2024 20:51:46 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 03/03/2024 20:51:46 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 03/03/2024 20:51:46 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 03/03/2024 20:51:47 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 03/03/2024 20:51:47 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 03/03/2024 20:51:47 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 03/03/2024 20:51:47 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 03/03/2024 20:51:47 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 03/03/2024 20:51:47 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 03/03/2024 20:51:48 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 03/03/2024 20:51:48 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 03/03/2024 20:51:48 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 03/03/2024 20:51:48 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 03/03/2024 20:51:49 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 03/03/2024 20:51:49 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 03/03/2024 20:51:49 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 03/03/2024 20:51:49 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 03/03/2024 20:51:49 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 03/03/2024 20:51:50 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 03/03/2024 20:51:50 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 03/03/2024 20:51:50 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 03/03/2024 20:51:50 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 03/03/2024 20:51:51 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 03/03/2024 20:51:51 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 03/03/2024 20:51:51 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 03/03/2024 20:51:51 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 03/03/2024 20:51:51 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 03/03/2024 20:51:51 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 03/03/2024 20:51:51 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 03/03/2024 20:51:51 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 03/03/2024 20:51:52 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 03/03/2024 20:51:52 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO] 03/03/2024 20:51:52 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 03/03/2024 20:51:52 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 03/03/2024 21:07:26 -------- Inizio thread previsioni settimanali --------
+[INFO] 03/03/2024 21:07:26 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 03/03/2024 21:07:26 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 03/03/2024 21:07:26 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 03/03/2024 21:07:26 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 03/03/2024 21:07:26 -------- Inizio thread creazione documento centralina--------
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 03/03/2024 21:07:26 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 03/03/2024 21:07:26 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 03/03/2024 21:07:26 -------- documento giornaliero per messina creato --------
+[INFO] 03/03/2024 21:07:26 -------- documento giornaliero per milan creato --------
+[INFO] 03/03/2024 21:07:26 -------- meteo orario per palermo inserito --------
+[INFO] 03/03/2024 21:07:26 -------- meteo orario per messina inserito --------
+[INFO] 03/03/2024 21:07:26 -------- meteo orario per milan inserito --------
+[INFO] 03/03/2024 21:07:26 -------- documento giornaliero per palermo creato --------
+[INFO] 03/03/2024 21:07:26 -------- meteo orario per rome inserito --------
+[INFO] 03/03/2024 21:07:26 -------- documento giornaliero per rome creato --------
+[INFO] 03/03/2024 21:07:27 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 03/03/2024 21:07:27 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 03/03/2024 21:07:27 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 03/03/2024 21:07:27 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 03/03/2024 21:07:28 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 03/03/2024 21:07:28 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 03/03/2024 21:07:29 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 03/03/2024 21:07:29 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 03/03/2024 21:07:29 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 03/03/2024 21:07:30 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 03/03/2024 21:07:30 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 03/03/2024 21:07:30 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 03/03/2024 21:07:30 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 03/03/2024 21:07:31 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 03/03/2024 21:07:31 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 03/03/2024 21:07:31 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 03/03/2024 21:07:31 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 03/03/2024 21:07:32 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 03/03/2024 21:07:32 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 03/03/2024 21:07:32 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 03/03/2024 21:07:32 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 03/03/2024 21:07:32 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 03/03/2024 21:07:33 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 03/03/2024 21:07:33 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 03/03/2024 21:07:33 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 03/03/2024 21:07:33 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 03/03/2024 21:07:34 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 03/03/2024 21:07:34 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 03/03/2024 21:07:34 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 03/03/2024 21:07:34 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 03/03/2024 21:07:34 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 03/03/2024 21:07:35 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 03/03/2024 21:07:35 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 03/03/2024 21:07:35 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 03/03/2024 21:07:35 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 03/03/2024 21:07:36 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 03/03/2024 21:07:36 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 03/03/2024 21:07:36 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 03/03/2024 21:07:36 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 03/03/2024 21:07:36 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 03/03/2024 21:07:37 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 03/03/2024 21:07:37 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 03/03/2024 21:07:37 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 03/03/2024 21:07:37 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 03/03/2024 21:07:37 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 03/03/2024 21:07:38 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 03/03/2024 21:07:38 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 03/03/2024 21:07:38 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 03/03/2024 21:07:38 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 03/03/2024 21:07:39 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 03/03/2024 21:07:39 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 03/03/2024 21:07:39 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 03/03/2024 21:07:39 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 03/03/2024 21:07:39 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 03/03/2024 21:07:39 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 03/03/2024 21:07:40 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 03/03/2024 21:07:40 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO] 03/03/2024 21:07:41 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 03/03/2024 21:07:42 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 03/03/2024 21:07:42 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 07/03/2024 16:48:04 -------- Inizio thread previsioni settimanali --------
+[INFO] 07/03/2024 16:48:04 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 07/03/2024 16:48:04 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 07/03/2024 16:48:04 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 07/03/2024 16:48:04 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 07/03/2024 16:48:04 -------- Inizio thread creazione documento centralina--------
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 07/03/2024 16:48:04 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 07/03/2024 16:48:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 07/03/2024 16:48:04 -------- meteo orario per rome inserito --------
+[INFO] 07/03/2024 16:48:04 -------- documento giornaliero per palermo creato --------
+[INFO] 07/03/2024 16:48:04 -------- documento giornaliero per milan creato --------
+[INFO] 07/03/2024 16:48:04 -------- documento giornaliero per rome creato --------
+[INFO] 07/03/2024 16:48:04 -------- meteo orario per milan inserito --------
+[INFO] 07/03/2024 16:48:04 -------- meteo orario per palermo inserito --------
+[INFO] 07/03/2024 16:48:04 -------- meteo orario per messina inserito --------
+[INFO] 07/03/2024 16:48:04 -------- documento giornaliero per messina creato --------
+[INFO] 07/03/2024 16:48:05 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 07/03/2024 16:48:05 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 07/03/2024 16:48:05 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 07/03/2024 16:48:05 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 07/03/2024 16:48:06 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 07/03/2024 16:48:06 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 07/03/2024 16:48:06 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 07/03/2024 16:48:06 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 07/03/2024 16:48:07 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 07/03/2024 16:48:07 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 07/03/2024 16:48:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 07/03/2024 16:48:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 07/03/2024 16:48:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 07/03/2024 16:48:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 07/03/2024 16:48:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 07/03/2024 16:48:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 07/03/2024 16:48:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 07/03/2024 16:48:10 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 07/03/2024 16:48:10 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 07/03/2024 16:48:10 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 07/03/2024 16:48:10 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 07/03/2024 16:48:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 07/03/2024 16:48:11 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 07/03/2024 16:48:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 07/03/2024 16:48:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 07/03/2024 16:48:12 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 07/03/2024 16:48:12 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 07/03/2024 16:48:12 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 07/03/2024 16:48:12 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 07/03/2024 16:48:12 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 07/03/2024 16:48:13 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 07/03/2024 16:48:13 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 07/03/2024 16:48:13 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 07/03/2024 16:48:13 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 07/03/2024 16:48:14 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 07/03/2024 16:48:14 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 07/03/2024 16:48:14 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 07/03/2024 16:48:14 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 07/03/2024 16:48:15 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 07/03/2024 16:48:15 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 07/03/2024 16:48:15 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 07/03/2024 16:48:15 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 07/03/2024 16:48:15 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 07/03/2024 16:48:16 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 07/03/2024 16:48:16 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 07/03/2024 16:48:16 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 07/03/2024 16:48:16 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 07/03/2024 16:48:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 07/03/2024 16:48:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 07/03/2024 16:48:17 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 07/03/2024 16:48:17 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 07/03/2024 16:48:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 07/03/2024 16:48:17 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 07/03/2024 16:48:18 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 07/03/2024 16:48:18 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 07/03/2024 16:48:18 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO] 07/03/2024 16:48:18 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 07/03/2024 16:48:19 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 07/03/2024 16:48:20 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 07/03/2024 16:48:20 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 07/03/2024 16:51:57 -------- Inizio thread previsioni settimanali --------
+[INFO] 07/03/2024 16:51:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 07/03/2024 16:51:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 07/03/2024 16:51:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 07/03/2024 16:51:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 07/03/2024 16:51:57 -------- Inizio thread creazione documento centralina--------
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 07/03/2024 16:51:57 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 07/03/2024 16:51:57 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 07/03/2024 16:51:57 -------- meteo orario per rome inserito --------
+[INFO] 07/03/2024 16:51:57 -------- documento giornaliero per messina creato --------
+[INFO] 07/03/2024 16:51:57 -------- documento giornaliero per milan creato --------
+[INFO] 07/03/2024 16:51:57 -------- meteo orario per palermo inserito --------
+[INFO] 07/03/2024 16:51:57 -------- meteo orario per messina inserito --------
+[INFO] 07/03/2024 16:51:57 -------- documento giornaliero per palermo creato --------
+[INFO] 07/03/2024 16:51:57 -------- meteo orario per milan inserito --------
+[INFO] 07/03/2024 16:51:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 07/03/2024 16:51:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 07/03/2024 16:51:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 07/03/2024 16:51:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 07/03/2024 16:51:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 07/03/2024 16:51:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 07/03/2024 16:51:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 07/03/2024 16:51:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 07/03/2024 16:52:00 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 07/03/2024 16:52:00 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 07/03/2024 16:52:00 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 07/03/2024 16:52:00 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 07/03/2024 16:52:01 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 07/03/2024 16:52:01 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 07/03/2024 16:52:01 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 07/03/2024 16:52:01 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 07/03/2024 16:52:02 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 07/03/2024 16:52:02 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 07/03/2024 16:52:03 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 07/03/2024 16:52:03 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 07/03/2024 16:52:03 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 07/03/2024 16:52:03 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 07/03/2024 16:52:04 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 07/03/2024 16:52:04 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 07/03/2024 16:52:04 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 07/03/2024 16:52:04 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 07/03/2024 16:52:04 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 07/03/2024 16:52:05 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 07/03/2024 16:52:05 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 07/03/2024 16:52:05 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 07/03/2024 16:52:05 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 07/03/2024 16:52:06 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 07/03/2024 16:52:06 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 07/03/2024 16:52:06 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 07/03/2024 16:52:06 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 07/03/2024 16:52:06 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 07/03/2024 16:52:06 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 07/03/2024 16:52:07 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 07/03/2024 16:52:07 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 07/03/2024 16:52:07 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 07/03/2024 16:52:07 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 07/03/2024 16:52:08 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 07/03/2024 16:52:08 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 07/03/2024 16:52:08 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 07/03/2024 16:52:08 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 07/03/2024 16:52:09 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 07/03/2024 16:52:09 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 07/03/2024 16:52:09 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 07/03/2024 16:52:09 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 07/03/2024 16:52:10 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 07/03/2024 16:52:10 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 07/03/2024 16:52:10 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 07/03/2024 16:52:10 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 07/03/2024 16:52:10 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 07/03/2024 16:52:10 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 07/03/2024 16:52:10 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 07/03/2024 16:52:11 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 07/03/2024 16:52:11 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 07/03/2024 16:52:11 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 07/03/2024 16:52:11 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO] 07/03/2024 16:52:12 Ottengo le citta
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di 3bmeteo per il calcolo del bias
+[INFO] 07/03/2024 16:52:12 ottengo il bias parziale calcolato di 3bmeteo
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di 3bmeteo per il calcolo del mape
+[INFO] 07/03/2024 16:52:12 ottengo il mape parziale calcolato di 3bmeteo
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di 3bmeteo per il calcolo del rmse
+[INFO] 07/03/2024 16:52:12 ottengo il rmse parziale calcolato di 3bmeteo
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di 3bmeteo per il calcolo del wbias
+[INFO] 07/03/2024 16:52:12 ottengo il wbias parziale calcolato di 3bmeteo
+[INFO] 07/03/2024 16:52:12 Ottengo le citta
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di meteoit per il calcolo del bias
+[INFO] 07/03/2024 16:52:12 ottengo il bias parziale calcolato di meteoit
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di meteoit per il calcolo del mape
+[INFO] 07/03/2024 16:52:12 ottengo il mape parziale calcolato di meteoit
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di meteoit per il calcolo del rmse
+[INFO] 07/03/2024 16:52:12 ottengo il rmse parziale calcolato di meteoit
+[INFO] 07/03/2024 16:52:12 calcolo il partialSum di meteoit per il calcolo del wbias
+[INFO] 07/03/2024 16:52:12 ottengo il wbias parziale calcolato di meteoit
+[INFO] 26/03/2024 18:56:47 -------- Inizio thread previsioni settimanali --------
+[INFO] 26/03/2024 18:56:47 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 26/03/2024 18:56:47 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 26/03/2024 18:56:47 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 26/03/2024 18:56:47 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 26/03/2024 18:56:47 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino
+[INFO] 26/03/2024 18:56:47 -------- Inizio thread creazione documento centralina--------
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 18:56:47 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 18:56:47 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 18:56:47 -------- documento giornaliero per milan creato --------
+[INFO] 26/03/2024 18:56:47 -------- documento giornaliero per messina creato --------
+[INFO] 26/03/2024 18:56:47 -------- meteo orario per milan inserito --------
+[INFO] 26/03/2024 18:56:47 -------- documento giornaliero per rome creato --------
+[INFO] 26/03/2024 18:56:47 -------- documento giornaliero per turin creato --------
+[INFO] 26/03/2024 18:56:47 -------- meteo orario per turin inserito --------
+[INFO] 26/03/2024 18:56:47 -------- meteo orario per messina inserito --------
+[INFO] 26/03/2024 18:56:47 -------- meteo orario per rome inserito --------
+[INFO] 26/03/2024 18:56:47 -------- meteo orario per palermo inserito --------
+[INFO] 26/03/2024 18:56:47 -------- documento giornaliero per palermo creato --------
+[INFO] 26/03/2024 18:56:48 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 26/03/2024 18:56:48 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 26/03/2024 18:56:48 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 26/03/2024 18:56:48 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/1
+[INFO] 26/03/2024 18:56:48 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 26/03/2024 18:56:49 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 26/03/2024 18:56:49 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 26/03/2024 18:56:49 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 26/03/2024 18:56:49 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 26/03/2024 18:56:49 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/2
+[INFO] 26/03/2024 18:56:50 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 26/03/2024 18:56:50 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 26/03/2024 18:56:51 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/3
+[INFO] 26/03/2024 18:56:51 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 26/03/2024 18:56:51 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 26/03/2024 18:56:51 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 26/03/2024 18:56:52 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 26/03/2024 18:56:52 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/4
+[INFO] 26/03/2024 18:56:52 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 26/03/2024 18:56:52 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 26/03/2024 18:56:52 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 26/03/2024 18:56:52 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 26/03/2024 18:56:53 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/5
+[INFO] 26/03/2024 18:56:53 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 26/03/2024 18:56:53 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 26/03/2024 18:56:53 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 26/03/2024 18:56:54 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 26/03/2024 18:56:54 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/6
+[INFO] 26/03/2024 18:56:54 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 26/03/2024 18:56:54 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 26/03/2024 18:56:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 26/03/2024 18:56:55 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 26/03/2024 18:56:55 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-1272
+[INFO] 26/03/2024 18:56:55 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 26/03/2024 18:56:55 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 26/03/2024 18:56:56 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 26/03/2024 18:56:56 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 26/03/2024 18:56:56 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-domani-1272
+[INFO] 26/03/2024 18:56:56 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 26/03/2024 18:56:56 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 26/03/2024 18:56:57 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-2-giorni-1272
+[INFO] 26/03/2024 18:56:57 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 26/03/2024 18:56:57 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 26/03/2024 18:56:57 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 26/03/2024 18:56:57 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-3-giorni-1272
+[INFO] 26/03/2024 18:56:58 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 26/03/2024 18:56:58 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 26/03/2024 18:56:58 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 26/03/2024 18:56:58 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 26/03/2024 18:56:58 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-4-giorni-1272
+[INFO] 26/03/2024 18:56:59 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 26/03/2024 18:56:59 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 26/03/2024 18:56:59 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 26/03/2024 18:56:59 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 26/03/2024 18:56:59 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-5-giorni-1272
+[INFO] 26/03/2024 18:56:59 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 26/03/2024 18:57:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 26/03/2024 18:57:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 26/03/2024 18:57:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 26/03/2024 18:57:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-6-giorni-1272
+[INFO] 26/03/2024 18:57:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 26/03/2024 18:57:01 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 26/03/2024 18:57:01 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 26/03/2024 18:57:01 -------- previsioni settimanali 3bmeteo per torino inserite --------
+[INFO] 26/03/2024 18:57:01 -------- previsioni settimanali meteoit per torino inserite --------
+[INFO] 26/03/2024 18:57:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 26/03/2024 18:57:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 26/03/2024 18:57:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 26/03/2024 18:57:02 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 26/03/2024 18:57:02 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 26/03/2024 18:57:02 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 26/03/2024 18:57:02 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO] 26/03/2024 18:57:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 26/03/2024 18:57:04 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 26/03/2024 18:57:04 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 26/03/2024 18:56:47 Ottengo le citta
+[INFO] 26/03/2024 18:56:47 calcolo il partialSum di 3bmeteo per il calcolo del bias
+[INFO] 26/03/2024 19:10:08 -------- Inizio thread previsioni settimanali --------
+[INFO] 26/03/2024 19:10:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 26/03/2024 19:10:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 26/03/2024 19:10:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 26/03/2024 19:10:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 26/03/2024 19:10:08 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino
+[INFO] 26/03/2024 19:10:08 -------- Inizio thread creazione documento centralina--------
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 19:10:08 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 19:10:08 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 19:10:08 -------- documento giornaliero per milan creato --------
+[INFO] 26/03/2024 19:10:08 -------- meteo orario per milan inserito --------
+[INFO] 26/03/2024 19:10:08 -------- documento giornaliero per messina creato --------
+[INFO] 26/03/2024 19:10:08 -------- meteo orario per palermo inserito --------
+[INFO] 26/03/2024 19:10:08 -------- documento giornaliero per palermo creato --------
+[INFO] 26/03/2024 19:10:08 -------- meteo orario per messina inserito --------
+[INFO] 26/03/2024 19:10:08 -------- documento giornaliero per rome creato --------
+[INFO] 26/03/2024 19:10:08 -------- documento giornaliero per turin creato --------
+[INFO] 26/03/2024 19:10:08 -------- meteo orario per turin inserito --------
+[INFO] 26/03/2024 19:10:08 -------- meteo orario per rome inserito --------
+[INFO] 26/03/2024 19:10:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 26/03/2024 19:10:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 26/03/2024 19:10:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 26/03/2024 19:10:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/1
+[INFO] 26/03/2024 19:10:09 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 26/03/2024 19:10:10 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 26/03/2024 19:10:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 26/03/2024 19:10:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 26/03/2024 19:10:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 26/03/2024 19:10:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/2
+[INFO] 26/03/2024 19:10:11 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 26/03/2024 19:10:12 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 26/03/2024 19:10:12 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 26/03/2024 19:10:12 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/3
+[INFO] 26/03/2024 19:10:12 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 26/03/2024 19:10:13 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 26/03/2024 19:10:13 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 26/03/2024 19:10:13 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 26/03/2024 19:10:14 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/4
+[INFO] 26/03/2024 19:10:14 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 26/03/2024 19:10:14 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 26/03/2024 19:10:14 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 26/03/2024 19:10:15 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 26/03/2024 19:10:15 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/5
+[INFO] 26/03/2024 19:10:15 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 26/03/2024 19:10:15 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 26/03/2024 19:10:15 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 26/03/2024 19:10:16 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 26/03/2024 19:10:16 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/6
+[INFO] 26/03/2024 19:10:16 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 26/03/2024 19:10:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 26/03/2024 19:10:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 26/03/2024 19:10:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 26/03/2024 19:10:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-1272
+[INFO] 26/03/2024 19:10:17 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 26/03/2024 19:10:18 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 26/03/2024 19:10:18 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 26/03/2024 19:10:18 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 26/03/2024 19:10:18 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-domani-1272
+[INFO] 26/03/2024 19:10:18 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 26/03/2024 19:10:19 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 26/03/2024 19:10:19 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 26/03/2024 19:10:19 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 26/03/2024 19:10:19 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-2-giorni-1272
+[INFO] 26/03/2024 19:10:19 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 26/03/2024 19:10:20 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 26/03/2024 19:10:20 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 26/03/2024 19:10:20 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 26/03/2024 19:10:20 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-3-giorni-1272
+[INFO] 26/03/2024 19:10:21 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 26/03/2024 19:10:21 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 26/03/2024 19:10:21 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 26/03/2024 19:10:21 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 26/03/2024 19:10:21 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-4-giorni-1272
+[INFO] 26/03/2024 19:10:22 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 26/03/2024 19:10:22 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 26/03/2024 19:10:22 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 26/03/2024 19:10:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-5-giorni-1272
+[INFO] 26/03/2024 19:10:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 26/03/2024 19:10:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 26/03/2024 19:10:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 26/03/2024 19:10:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 26/03/2024 19:10:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-6-giorni-1272
+[INFO] 26/03/2024 19:10:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 26/03/2024 19:10:24 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 26/03/2024 19:10:24 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 26/03/2024 19:10:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali 3bmeteo per torino inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali meteoit per torino inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 26/03/2024 19:10:25 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO] 26/03/2024 19:10:08 Ottengo le citta
+[INFO] 26/03/2024 19:10:08 calcolo il partialSum di 3bmeteo per il calcolo del bias
+[INFO] 26/03/2024 20:02:00 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 26/03/2024 20:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 20:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 20:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 20:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 20:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 21:02:00 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 26/03/2024 21:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 21:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 21:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 21:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 21:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 22:24:55 -------- Inizio thread previsioni settimanali --------
+[INFO] 26/03/2024 22:24:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 26/03/2024 22:24:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 26/03/2024 22:24:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 26/03/2024 22:24:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino
+[INFO] 26/03/2024 22:24:55 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 26/03/2024 22:24:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 26/03/2024 22:24:55 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 22:24:55 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 22:24:55 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 22:24:55 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 22:24:55 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione con https://www.3bmeteo.com/meteo/palermo
+[ERRORE]HTTPSConnectionPool(host='www.3bmeteo.com', port=443): Max retries exceeded with url: /meteo/palermo (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe35ce552b0>: Failed to resolve 'www.3bmeteo.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione con https://www.3bmeteo.com/meteo/roma
+[ERRORE]HTTPSConnectionPool(host='www.3bmeteo.com', port=443): Max retries exceeded with url: /meteo/roma (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe35d0d9c40>: Failed to resolve 'www.3bmeteo.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione alle api
+[ERRORE]HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fe35ce56ba0>: Failed to resolve 'api.weatherapi.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione con https://www.3bmeteo.com/meteo/milano
+[ERRORE]HTTPSConnectionPool(host='www.3bmeteo.com', port=443): Max retries exceeded with url: /meteo/milano (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe35ce541a0>: Failed to resolve 'www.3bmeteo.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione con https://www.3bmeteo.com/meteo/torino
+[ERRORE]HTTPSConnectionPool(host='www.3bmeteo.com', port=443): Max retries exceeded with url: /meteo/torino (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe35d0d93a0>: Failed to resolve 'www.3bmeteo.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione alle api
+[ERRORE]HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fe35ce575f0>: Failed to resolve 'api.weatherapi.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione con https://www.3bmeteo.com/meteo/messina
+[ERRORE]HTTPSConnectionPool(host='www.3bmeteo.com', port=443): Max retries exceeded with url: /meteo/messina (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe35d0d8890>: Failed to resolve 'www.3bmeteo.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione alle api
+[ERRORE]HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fe35ce57a10>: Failed to resolve 'api.weatherapi.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione alle api
+[ERRORE]HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fe35ce64cb0>: Failed to resolve 'api.weatherapi.com' ([Errno -2] Name does not resolve)"))
+[ERRORE] 26/03/2024 22:24:55 Errore nella connessione alle api
+[ERRORE]HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7fe35ce643b0>: Failed to resolve 'api.weatherapi.com' ([Errno -2] Name does not resolve)"))
+[INFO] 26/03/2024 22:27:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 26/03/2024 22:27:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 26/03/2024 22:27:55 Tentativo di connessione n. 1 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 22:27:55 Tentativo di connessione n. 1 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 22:27:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 26/03/2024 22:27:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 26/03/2024 22:27:55 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino
+[INFO] 26/03/2024 22:27:55 Tentativo di connessione n. 1 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 22:27:55 Tentativo di connessione n. 1 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 22:27:55 Tentativo di connessione n. 1 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/1
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 26/03/2024 22:27:56 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/2
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 26/03/2024 22:27:57 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/3
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/4
+[INFO] 26/03/2024 22:27:58 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/5
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 26/03/2024 22:27:59 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/6
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-1272
+[INFO] 26/03/2024 22:28:00 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-domani-1272
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-2-giorni-1272
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 26/03/2024 22:28:01 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-3-giorni-1272
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-4-giorni-1272
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-5-giorni-1272
+[INFO] 26/03/2024 22:28:02 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 26/03/2024 22:28:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO] 26/03/2024 22:28:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 26/03/2024 22:28:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO] 26/03/2024 22:28:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-6-giorni-1272
+[INFO] 26/03/2024 22:28:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 26/03/2024 22:28:03 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO] 26/03/2024 23:02:00 -------- Inizio thread inserimetno orario centralina--------
+[INFO] 26/03/2024 23:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 26/03/2024 23:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 26/03/2024 23:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 26/03/2024 23:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 26/03/2024 23:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 26/03/2024 23:30:00 Ottengo le citta
+[INFO] 27/03/2024 00:01:00 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 00:01:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 00:01:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 00:01:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 00:01:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 00:01:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 00:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 00:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 00:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 00:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 00:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 00:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[ERROR] 27/03/2024 00:02:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66034ee15809d10dc0c0c77d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 00:02:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66034ee15809d10dc0c0c77d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 00:02:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66034ee15809d10dc0c0c77d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 00:02:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66034ee15809d10dc0c0c77d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 00:02:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66034ee15809d10dc0c0c77d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] 27/03/2024 01:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 01:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 01:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 01:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 01:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 01:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 16:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 16:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 16:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 16:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 16:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 16:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 16:29:40 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 16:29:40 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 16:29:40 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 16:29:40 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 16:29:40 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 16:29:40 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 16:30:10 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 16:30:10 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 16:30:10 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 16:30:10 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 16:30:10 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 16:30:10 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[ERROR] 27/03/2024 16:31:11 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043b648561c22578d1a89d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:31:11 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043b648561c22578d1a89d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:31:11 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043b648561c22578d1a89d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:31:11 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043b648561c22578d1a89d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:31:11 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043b648561c22578d1a89d, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] 27/03/2024 16:42:00 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 16:42:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 16:42:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 16:42:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 16:42:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 16:42:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 16:42:30 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 16:42:30 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 16:42:30 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 16:42:30 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 16:42:30 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 16:42:30 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[ERROR] 27/03/2024 16:43:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043e48e998c5161c7fd061, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:43:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043e48e998c5161c7fd061, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:43:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043e48e998c5161c7fd061, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:43:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043e48e998c5161c7fd061, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 16:43:31 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 66043e48e998c5161c7fd061, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] 27/03/2024 17:02:34 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 17:02:34 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:02:34 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:02:34 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 17:02:34 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:02:34 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:03:04 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 17:03:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:03:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:03:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:03:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:03:04 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[ERROR] 27/03/2024 17:04:06 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6604431abc217c20887e6d28, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:04:06 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6604431abc217c20887e6d28, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:04:06 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6604431abc217c20887e6d28, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:04:06 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6604431abc217c20887e6d28, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:04:06 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6604431abc217c20887e6d28, topology_type: Unknown, servers: [<ServerDescription ('siakoo.asuscomm.com', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('siakoo.asuscomm.com:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] 27/03/2024 17:06:14 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 17:06:14 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:06:14 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:06:14 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:06:14 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:06:14 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 17:06:44 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 17:06:44 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:06:44 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:06:44 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:06:44 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:06:44 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[ERROR] 27/03/2024 17:07:44 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660443f672b90c47f10d23a1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:07:44 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660443f672b90c47f10d23a1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:07:44 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660443f672b90c47f10d23a1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:07:44 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660443f672b90c47f10d23a1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:07:44 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660443f672b90c47f10d23a1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] 27/03/2024 17:23:16 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 17:23:16 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:23:16 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:23:16 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 17:23:16 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:23:16 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:23:46 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 17:23:46 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:23:46 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:23:46 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 17:23:46 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:23:46 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[ERROR] 27/03/2024 17:24:47 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660447f45f3520cfb9251729, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:24:47 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660447f45f3520cfb9251729, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:24:47 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660447f45f3520cfb9251729, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:24:47 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660447f45f3520cfb9251729, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[ERROR] 27/03/2024 17:24:47 Errore nella creazione del documento delle condizioni attuali nel database. Eccezione: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 660447f45f3520cfb9251729, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[INFO] 27/03/2024 17:26:15 -------- Inizio thread creazione documento centralina--------
+[INFO] 27/03/2024 17:26:15 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:26:15 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:26:15 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:26:15 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 17:26:15 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:26:15 -------- documento giornaliero per messina creato --------
+[INFO] 27/03/2024 17:26:15 -------- documento giornaliero per rome creato --------
+[INFO] 27/03/2024 17:26:15 -------- documento giornaliero per palermo creato --------
+[INFO] 27/03/2024 17:26:15 -------- documento giornaliero per milan creato --------
+[INFO] 27/03/2024 17:26:15 -------- documento giornaliero per turin creato --------
+[INFO] 27/03/2024 17:26:45 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 17:26:45 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 17:26:45 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 17:26:45 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 17:26:45 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 17:26:45 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 17:26:45 -------- meteo orario per turin inserito --------
+[INFO] 27/03/2024 17:26:45 -------- meteo orario per milan inserito --------
+[INFO] 27/03/2024 17:26:45 -------- meteo orario per palermo inserito --------
+[INFO] 27/03/2024 17:26:45 -------- meteo orario per rome inserito --------
+[INFO] 27/03/2024 17:26:45 -------- meteo orario per messina inserito --------
+[INFO] 27/03/2024 18:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 27/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 27/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 27/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 27/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 27/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 27/03/2024 18:02:00 -------- meteo orario per palermo inserito --------
+[INFO] 27/03/2024 18:02:00 -------- meteo orario per milan inserito --------
+[INFO] 27/03/2024 18:02:00 -------- meteo orario per messina inserito --------
+[INFO] 27/03/2024 18:02:00 -------- meteo orario per rome inserito --------
+[INFO] 27/03/2024 18:02:00 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 10:48:18 -------- Inizio thread previsioni settimanali --------
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/1
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/1
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/1
+[INFO] 28/03/2024 10:48:18 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/1
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/1
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/2
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/2
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/2
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/2
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/2
+[INFO] 28/03/2024 10:48:19 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/3
+[INFO] 28/03/2024 10:48:20 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/3
+[INFO] 28/03/2024 10:48:20 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/3
+[INFO] 28/03/2024 10:48:20 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/3
+[INFO] 28/03/2024 10:48:20 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/3
+[INFO] 28/03/2024 10:48:20 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/4
+[INFO] 28/03/2024 10:48:20 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/4
+[INFO] 28/03/2024 10:48:21 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/4
+[INFO] 28/03/2024 10:48:21 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/4
+[INFO] 28/03/2024 10:48:21 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/5
+[INFO] 28/03/2024 10:48:21 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/4
+[INFO] 28/03/2024 10:48:21 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/5
+[INFO] 28/03/2024 10:48:21 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/5
+[INFO] 28/03/2024 10:48:22 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/5
+[INFO] 28/03/2024 10:48:22 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/messina/dettagli_orari/6
+[INFO] 28/03/2024 10:48:22 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/5
+[INFO] 28/03/2024 10:48:22 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/palermo/dettagli_orari/6
+[INFO] 28/03/2024 10:48:22 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/torino/dettagli_orari/6
+[INFO] 28/03/2024 10:48:22 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/roma/dettagli_orari/6
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.3bmeteo.com/meteo/milano/dettagli_orari/6
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-83048
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-1272
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-82053
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-58091
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-15146
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-domani-83048
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-domani-1272
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-domani-82053
+[INFO] 28/03/2024 10:48:23 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-domani-58091
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-domani-15146
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-2-giorni-1272
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-2-giorni-83048
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-2-giorni-58091
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-2-giorni-15146
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-3-giorni-83048
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-3-giorni-1272
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-3-giorni-58091
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-3-giorni-15146
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-4-giorni-83048
+[INFO] 28/03/2024 10:48:24 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-4-giorni-1272
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-4-giorni-15146
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-4-giorni-58091
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-2-giorni-82053
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-5-giorni-1272
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-5-giorni-15146
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-5-giorni-58091
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-3-giorni-82053
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/milano-6-giorni-15146
+[INFO] 28/03/2024 10:48:25 previsioni tentativo di connessione: https://www.meteo.it/meteo/roma-6-giorni-58091
+[INFO]28/03/2024 10:48:26 -------- previsioni settimanali 3bmeteo per milano inserite --------
+[INFO] 28/03/2024 10:48:26 -------- previsioni settimanali meteoit per milano inserite --------
+[INFO] 28/03/2024 10:48:26 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-5-giorni-83048
+[INFO] 28/03/2024 10:48:26 previsioni tentativo di connessione: https://www.meteo.it/meteo/torino-6-giorni-1272
+[INFO] 28/03/2024 10:48:26 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-4-giorni-82053
+[INFO]28/03/2024 10:48:26 -------- previsioni settimanali 3bmeteo per torino inserite --------
+[INFO] 28/03/2024 10:48:26 -------- previsioni settimanali meteoit per torino inserite --------
+[INFO] 28/03/2024 10:48:26 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-5-giorni-82053
+[INFO] 28/03/2024 10:48:27 previsioni tentativo di connessione: https://www.meteo.it/meteo/palermo-6-giorni-82053
+[INFO]28/03/2024 10:48:27 -------- previsioni settimanali 3bmeteo per roma inserite --------
+[INFO] 28/03/2024 10:48:27 -------- previsioni settimanali meteoit per roma inserite --------
+[INFO] 28/03/2024 10:48:27 previsioni tentativo di connessione: https://www.meteo.it/meteo/messina-6-giorni-83048
+[INFO]28/03/2024 10:48:27 -------- previsioni settimanali 3bmeteo per palermo inserite --------
+[INFO] 28/03/2024 10:48:27 -------- previsioni settimanali meteoit per palermo inserite --------
+[INFO]28/03/2024 10:48:28 -------- previsioni settimanali 3bmeteo per messina inserite --------
+[INFO] 28/03/2024 10:48:28 -------- previsioni settimanali meteoit per messina inserite --------
+[INFO] 28/03/2024 10:49:18 -------- Inizio thread creazione documento centralina--------
+[INFO] 28/03/2024 10:49:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 10:49:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 10:49:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 10:49:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 10:49:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 10:49:18 -------- documento giornaliero per palermo creato --------
+[INFO] 28/03/2024 10:49:18 -------- documento giornaliero per rome creato --------
+[INFO] 28/03/2024 10:49:18 -------- documento giornaliero per messina creato --------
+[INFO] 28/03/2024 10:49:18 -------- documento giornaliero per milan creato --------
+[INFO] 28/03/2024 10:49:18 -------- documento giornaliero per turin creato --------
+[INFO] 28/03/2024 10:50:18 -------- Inizio thread inserimento orario centralina--------
+[INFO] 28/03/2024 10:50:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 10:50:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 10:50:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 10:50:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 10:50:18 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 10:50:18 -------- meteo orario per messina inserito --------
+[INFO] 28/03/2024 10:50:18 -------- meteo orario per rome inserito --------
+[INFO] 28/03/2024 10:50:18 -------- meteo orario per palermo inserito --------
+[INFO] 28/03/2024 10:50:18 -------- meteo orario per milan inserito --------
+[INFO] 28/03/2024 10:50:18 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 10:51:18 Ottengo le citta
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di 3bmeteo per il calcolo del bias
+[INFO] 28/03/2024 10:51:18 ottengo il bias parziale calcolato di 3bmeteo
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di 3bmeteo per il calcolo del mape
+[INFO] 28/03/2024 10:51:18 ottengo il mape parziale calcolato di 3bmeteo
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di 3bmeteo per il calcolo del rmse
+[INFO] 28/03/2024 10:51:18 ottengo il rmse parziale calcolato di 3bmeteo
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di 3bmeteo per il calcolo del wbias
+[INFO] 28/03/2024 10:51:18 ottengo il wbias parziale calcolato di 3bmeteo
+[INFO] 28/03/2024 10:51:18 Ottengo le citta
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di meteoit per il calcolo del bias
+[INFO] 28/03/2024 10:51:18 ottengo il bias parziale calcolato di meteoit
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di meteoit per il calcolo del mape
+[INFO] 28/03/2024 10:51:18 ottengo il mape parziale calcolato di meteoit
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di meteoit per il calcolo del rmse
+[INFO] 28/03/2024 10:51:18 ottengo il rmse parziale calcolato di meteoit
+[INFO] 28/03/2024 10:51:18 calcolo il partialSum di meteoit per il calcolo del wbias
+[INFO] 28/03/2024 10:51:18 ottengo il wbias parziale calcolato di meteoit
+[INFO] 28/03/2024 11:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 28/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 11:02:00 -------- meteo orario per palermo inserito --------
+[INFO] 28/03/2024 11:02:00 -------- meteo orario per messina inserito --------
+[INFO] 28/03/2024 11:02:00 -------- meteo orario per rome inserito --------
+[INFO] 28/03/2024 11:02:00 -------- meteo orario per milan inserito --------
+[INFO] 28/03/2024 11:02:00 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 12:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 28/03/2024 12:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 12:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 12:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 12:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 12:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 12:02:00 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 12:02:00 -------- meteo orario per milan inserito --------
+[INFO] 28/03/2024 12:02:00 -------- meteo orario per rome inserito --------
+[INFO] 28/03/2024 12:02:00 -------- meteo orario per palermo inserito --------
+[INFO] 28/03/2024 12:02:00 -------- meteo orario per messina inserito --------
+[INFO] 28/03/2024 17:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 28/03/2024 17:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 17:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 17:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 17:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 17:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 17:02:00 -------- meteo orario per milan inserito --------
+[INFO] 28/03/2024 17:02:00 -------- meteo orario per palermo inserito --------
+[INFO] 28/03/2024 17:02:00 -------- meteo orario per messina inserito --------
+[INFO] 28/03/2024 17:02:00 -------- meteo orario per rome inserito --------
+[INFO] 28/03/2024 17:02:00 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 18:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 28/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 18:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 18:02:00 -------- meteo orario per messina inserito --------
+[INFO] 28/03/2024 18:02:00 -------- meteo orario per rome inserito --------
+[INFO] 28/03/2024 18:02:00 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 18:02:00 -------- meteo orario per palermo inserito --------
+[INFO] 28/03/2024 18:02:00 -------- meteo orario per milan inserito --------
+[INFO] 28/03/2024 19:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 28/03/2024 19:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 28/03/2024 19:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 28/03/2024 19:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 28/03/2024 19:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[INFO] 28/03/2024 19:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 28/03/2024 19:02:01 -------- meteo orario per milan inserito --------
+[INFO] 28/03/2024 19:02:01 -------- meteo orario per turin inserito --------
+[INFO] 28/03/2024 19:02:01 -------- meteo orario per palermo inserito --------
+[INFO] 28/03/2024 19:02:01 -------- meteo orario per messina inserito --------
+[INFO] 28/03/2024 19:02:01 -------- meteo orario per rome inserito --------
+[INFO] 29/03/2024 11:02:00 -------- Inizio thread inserimento orario centralina--------
+[INFO] 29/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=rome&aqi=no
+[INFO] 29/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=messina&aqi=no
+[INFO] 29/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=milan&aqi=no
+[INFO] 29/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=palermo&aqi=no
+[INFO] 29/03/2024 11:02:00 Tentativo di connessione n. 0 all'url http://api.weatherapi.com/v1/current.json?key=8c70b7cd7daa4b0da61164403233005&q=turin&aqi=no
+[WARNING]Documento giornaliero per turin ricreato perchè non presente
+[WARNING]Documento giornaliero per rome ricreato perchè non presente
+[WARNING]Documento giornaliero per palermo ricreato perchè non presente
+[WARNING]Documento giornaliero per messina ricreato perchè non presente
+[WARNING]Documento giornaliero per milan ricreato perchè non presente
+[INFO]29/03/2024 11:02:01 -------- meteo orario per palermo inserito --------
+[INFO]29/03/2024 11:02:01 -------- meteo orario per messina inserito --------
+[INFO]29/03/2024 11:02:01 -------- meteo orario per turin inserito --------
+[INFO]29/03/2024 11:02:01 -------- meteo orario per milan inserito --------
+[INFO]29/03/2024 11:02:01 -------- meteo orario per rome inserito --------
