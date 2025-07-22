@@ -28,7 +28,6 @@ db = None
 max_retries = 20 # Aumenta i tentativi per maggior robustezza
 retry_delay = 5  # Secondi di attesa tra i tentativi
 
-publish_weather_update()
 
 for attempt in range(max_retries):
     try:
@@ -123,7 +122,7 @@ def todayDocumentThread(db, api_key):
     Thread(target=insertTodayDocument, args=(db, "milan", api_key)).start()
     Thread(target=insertTodayDocument, args=(db, "palermo", api_key)).start()
     Thread(target=insertTodayDocument, args=(db, "turin", api_key)).start()
-    # publish_weather_update()
+    publish_weather_update()
 
 def insertHourlyThread(db, api_key):
     logging.info("Inizio thread inserimento meteo orario")
@@ -147,5 +146,5 @@ schedule.every().day.at('23:40').do(findNewNames, db)   # 23:40
 if __name__ == "__main__":
     logging.info("Schedulatore avviato. Premi Ctrl+C per interrompere.")
     while True:
-        # schedule.run_pending()
+        schedule.run_pending()
         time.sleep(1)
