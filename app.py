@@ -9,6 +9,7 @@ from threading import Thread
 from accuracy.calculate_accuracy import *
 from nomenclatura import *
 import sys
+from crawler.sns_publisher import publish_weather_update
 
 # ---------- CONFIGURAZIONE LOGGING ----------
 logging.basicConfig(
@@ -21,21 +22,19 @@ logging.basicConfig(
 )
 
 # ---------- CONNESSIONE AL DB ----------
-# mongodb = Mongodb("mongodb://root:admin@localhost:27017/")
-# mongodb = Mongodb("mongodb://root:admin@siakoo.asuscomm.com:27017/?authMechanism=DEFAULT")
-
-# ---------- CONNESSIONE AL DB CON RETRY ----------
-# mongodb_uri = "mongodb://root:admin@mongo-service.default.svc.cluster.local:27017/"
-mongodb_uri = "mongodb://foo:mustbeeightchars@load-balancer-docdb-0183b5887cd86ae8.elb.eu-west-1.amazonaws.com:27017/?tls=true&tlsAllowInvalidHostnames=true&directConnection=true"
+# mongodb = "mongodb://root:admin@mongo-service.default.svc.cluster.local:27017/"
+mongodb = "mongodb://foo:mustbeeightchars@mydocdb-cluster-instance.cb082oguy914.eu-west-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&retryWrites=false"
 db = None
 max_retries = 20 # Aumenta i tentativi per maggior robustezza
 retry_delay = 5  # Secondi di attesa tra i tentativi
+
+publish_weather_update()
 
 for attempt in range(max_retries):
     try:
         logging.info(f"Tentativo di connessione a MongoDB (Tentativo {attempt + 1}/{max_retries})...")
         # Crea l'istanza di Mongodb (che ora crea il client nel __init__)
-        mongodb_instance = Mongodb(mongodb_uri)
+        mongodb_instance = Mongodb(mongodb)
         db = mongodb_instance.connect()
         # Prova a fare una semplice operazione per verificare la connessione
         db.command('ping') 
@@ -124,6 +123,7 @@ def todayDocumentThread(db, api_key):
     Thread(target=insertTodayDocument, args=(db, "milan", api_key)).start()
     Thread(target=insertTodayDocument, args=(db, "palermo", api_key)).start()
     Thread(target=insertTodayDocument, args=(db, "turin", api_key)).start()
+    # publish_weather_update()
 
 def insertHourlyThread(db, api_key):
     logging.info("Inizio thread inserimento meteo orario")
@@ -147,5 +147,5 @@ schedule.every().day.at('23:40').do(findNewNames, db)   # 23:40
 if __name__ == "__main__":
     logging.info("Schedulatore avviato. Premi Ctrl+C per interrompere.")
     while True:
-        schedule.run_pending()
+        # schedule.run_pending()
         time.sleep(1)
