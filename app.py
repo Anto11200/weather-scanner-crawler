@@ -10,6 +10,7 @@ from accuracy.calculate_accuracy import *
 from nomenclatura import *
 import sys
 from crawler.sns_publisher import publish_weather_update
+import os
 
 # ---------- CONFIGURAZIONE LOGGING ----------
 logging.basicConfig(
@@ -21,9 +22,11 @@ logging.basicConfig(
     ]
 )
 
+MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "")
+
 # ---------- CONNESSIONE AL DB ----------
 # mongodb = "mongodb://root:admin@mongo-service.default.svc.cluster.local:27017/"
-mongodb = "mongodb://foo:mustbeeightchars@mydocdb-cluster-instance.cb082oguy914.eu-west-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&retryWrites=false"
+mongodb = MONGO_DB_URI
 db = None
 max_retries = 20 # Aumenta i tentativi per maggior robustezza
 retry_delay = 5  # Secondi di attesa tra i tentativi

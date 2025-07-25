@@ -12,6 +12,8 @@ logging.basicConfig(
     ]
 )
 
+SNS_TOPIC = os.environ.get("SNS_TOPIC", "arn:aws:sns:us-east-1:116695809482:weather-daily-notifications")
+
 
 def get_sns_client():
     """
@@ -32,8 +34,7 @@ def get_sns_client():
 
 def publish_weather_update(message_body: str = "Le previsioni meteo sono state aggiornate! Visita la nostra app per i dettagli!",
                            subject: str = 'Aggiornamento Previsioni Meteo',
-                           topic_arn: str = os.environ.get("SNS_TOPIC", "arn:aws:sns:us-east-1:116695809482:weather-daily-notifications")
-                            #topic_arn: str = "arn:aws:sns:us-east-1:116695809482:weather-daily-notifications"
+                           topic_arn: str = SNS_TOPIC
                             ):
     """
     Pubblica un messaggio su un topic SNS specifico.
@@ -46,7 +47,7 @@ def publish_weather_update(message_body: str = "Le previsioni meteo sono state a
     """
     
     if topic_arn is None:
-        raise ValueError("SNS_TOPIC_ARN non specificato e non trovato nelle variabili d'ambiente.")
+        raise ValueError("SNS_TOPIC non specificato e non trovato nelle variabili d'ambiente.")
 
     sns_client = get_sns_client()
 

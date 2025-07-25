@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-crawler
+  labels:
+    app: crawler
+data: 
+  MONGO_DB_URI : ""
+  SNS_TOPIC : ""
