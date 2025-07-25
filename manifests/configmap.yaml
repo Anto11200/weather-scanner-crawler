@@ -2,8 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configmap-django
-labels:
-  app: django
+  labels:
+    app: django
 data: 
   MONGO_DB_URI : "mongodb://foo:mustbeeightchars@my-docdb-cluster.cluster-cb082oguy914.eu-west-1.docdb.amazonaws.com:27017/?tls=true&retryWrites=false"
   SNS_TOPIC : 'arn:aws:sns:us-east-1:116695809482:weather-daily-notifications'
