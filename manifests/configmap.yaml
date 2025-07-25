@@ -5,5 +5,5 @@ metadata:
   labels:
     app: crawler
 data: 
-  MONGO_DB_URI : "mongodb://foo:mustbeeightchars@weather-scanner-nlb-41dfd916e651d512.elb.eu-west-1.amazonaws.com:27017/?tls=true&retryWrites=false"
+  MONGO_DB_URI : "mongodb://foo:mustbeeightchars@weather-scanner-nlb-41dfd916e651d512.elb.eu-west-1.amazonaws.com:27017/?tls=true&retryWrites=false&tlsInsecure=true&directConnection=true"
   SNS_TOPIC : 'arn:aws:sns:us-east-1:116695809482:weather-daily-notifications'
