@@ -138,12 +138,12 @@ def insertHourlyThread(db, api_key):
 # ---------- API KEY E SCHEDULAZIONE ----------
 api_key = "8c70b7cd7daa4b0da61164403233005"
 
-schedule.every().day.at('16:55').do(WeekPrevsThread, db)    # 22:00
-schedule.every().day.at('16:50').do(todayDocumentThread, db, api_key)   # 00:01
-schedule.every().hour.at(':52').do(insertHourlyThread, db, api_key)     # :02
-schedule.every().day.at('16:57').do(calculateAccuracy, db, "3bmeteo")   # 23:30
-schedule.every().day.at('16:57').do(calculateAccuracy, db, "meteoit")   # 23:30
-schedule.every().day.at('16:58').do(findNewNames, db)   # 23:40
+schedule.every().day.at('16:57').do(WeekPrevsThread, db)    # 22:00
+schedule.every().day.at('16:55').do(todayDocumentThread, db, api_key)   # 00:01
+schedule.every().hour.at(':56').do(insertHourlyThread, db, api_key)     # :02
+schedule.every().day.at('16:58').do(calculateAccuracy, db, "3bmeteo")   # 23:30
+schedule.every().day.at('16:58').do(calculateAccuracy, db, "meteoit")   # 23:30
+schedule.every().day.at('16:59').do(findNewNames, db)   # 23:40
 
 # ---------- AVVIO ----------
 if __name__ == "__main__":
