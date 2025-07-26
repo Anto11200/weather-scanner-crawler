@@ -5,5 +5,5 @@ metadata:
   labels:
     app: django
 data: 
-  MONGO_DB_URI : "mongodb://foo:mustbeeightchars@weather-scanner-nlb-41dfd916e651d512.elb.eu-west-1.amazonaws.com:27017/weatherdb?tls=true&retryWrites=false&tlsInsecure=true&directConnection=true"
+  MONGO_DB_URI : "mongodb://foo:mustbeeightchars@weather-scanner-nlb-ad65dd6f7883376f.elb.eu-west-1.amazonaws.com:27017/weather_scanner?tls=true&retryWrites=false&tlsInsecure=true&directConnection=true"
   SNS_TOPIC : 'arn:aws:sns:us-east-1:116695809482:weather-daily-notifications'
