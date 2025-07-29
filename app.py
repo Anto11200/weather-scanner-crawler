@@ -24,7 +24,7 @@ logging.basicConfig(
 
 MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb://foo:mustbeeightchars@mydocdb-cluster-instance.cb082oguy914.eu-west-1.docdb.amazonaws.com:27017/weatherdb?tls=true&tlsCAFile=global-bundle.pem&retryWrites=false")
 
-# ---------- CONNESSIONE AL DB ----------
+# ---------- CONNESSIONE AL DB ---------
 # mongodb = "mongodb://root:admin@mongo-service.default.svc.cluster.local:27017/"
 mongodb = MONGO_DB_URI
 db = None
